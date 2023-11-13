@@ -1,0 +1,30 @@
+body {
+  background-color: #742929;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 30px;
+}
+
+#btnHolder {
+  margin-top: 50px;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+p {
+   
+  font-size: 3rem;
+  color: #fff;
+}
