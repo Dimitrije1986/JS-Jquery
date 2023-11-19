@@ -1,0 +1,29 @@
+body {
+  background-color: #a2f1bd;
+}
+h1 {
+  text-align: center;
+}
+
+#userContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.userCard {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.userName {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.userCard img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
